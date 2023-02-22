@@ -1,0 +1,423 @@
+.anim2{
+    animation-name: name;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-iteration-count: 1;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#about{
+    background-color: black;
+}
+.about img{
+    border-radius:  0px 120px 0px 120px;
+}
+.about .content h2{
+    color:white;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.about .content p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.about .skills h4{
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    display: block;
+    font-weight: 600;
+}
+.about .skills h4 span {
+    background-color: #000;
+    padding: 0 10px;
+    font-weight: 400;
+    color: white;
+    border: 2px solid#0ecf75;
+    border-radius: 10px;
+}
+.about .skills h4::before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background: linear-gradient(to right, #570721 0%, #0ecf75 100%);
+    top: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+left: 50%;
+
+}
+.about .skills h4::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background: linear-gradient(to right, #570721 0%, #0ecf75 100%);
+    top: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+left: 50%;
+
+}
+.about .skills .single-skill{
+    width: 48%;
+    float: left;
+    margin-right: 13px;
+}
+.about .skills .single-skill span{
+    display: block;
+    color: white;
+}
+.about .skills .single-skill .progress{
+    height: 5px;
+    position: relative;
+}
+.about .skills .single-skill .progress .progress-bar{
+    position: absolute;
+    background: linear-gradient(to right, #570721 0%, #0ecf75 100%);
+    height: 5px;
+
+}
+.about-button{
+    display: block;
+    text-align: center;
+}
+.about-button .btn {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+/* services */
+
+.services{
+    background-image: url(./images/girl2img.jpg2.jpeg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.services::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .3);
+    width: 100%;
+    height: 100%;
+}
+.services .content{
+    z-index: 999;
+    position: relative;
+    color: #fff;
+
+}
+.services .content h2{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    /* font-family: 'Shizuru', cursive; */
+}
+.services .content .single-services{
+    background-color: rgba(255, 255, 255, .2);
+    transition: .4s ease-in-out;
+    height: 90%
+}
+.services .content .single-services:hover{
+background-color: rgba(0, 0, 0, .5);
+}
+.services .content .single-services i{
+    font-size: 3rem;
+    color: rgb(75, 201, 64);
+    text-align: center;
+    display: block;
+    transition: .3s;
+}
+.services .content .single-services h4{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+.services .content .single-services p{
+    font-size: 1rem;
+    color: #f1f1f1;
+}
+/* gallery */
+.gallery{
+    background-color: #000;
+}
+.gallery h2{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    /* font-family: 'Shizuru', cursive; */
+    font-size: 2.5rem;
+}
+.gallery p{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.gallery .images .imgbox{
+    height: 100%;
+    overflow: hidden;
+}
+.gallery .images .imgbox div img{
+    cursor: pointer;
+    transition: .4s;
+    height: 222px;
+}
+.gallery .images .imgbox .centerimg{
+    height: 100%;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.gallery .images .imgbox div {
+    overflow: hidden;
+    position: relative;
+}
+.gallery .images .imgbox div:hover img{
+    transform: scale(1.1);
+}
+.gallery .images .imgbox div::after{
+    transition: .4s;
+    cursor: pointer;
+}
+/* life history */
+.life-history
+{
+    background-image: url(./images/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.life-history::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .3);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.life-history h2{
+color: #fff;
+font-weight: 500;
+position: relative;
+z-index: 10;
+font-size:2rem;
+}
+.life-history .life-single{
+    z-index: 10;
+    position: relative;
+    border-bottom: 2px solid rgba(255, 255, 255, .8);
+}
+.life-history .life-single p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .8);
+    text-align: justify;
+}
+
+.life-history .life-single p span{
+    border: 3px solid #35a22c;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.life-history .life-single h4{
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+/******* projects *********/
+.project{
+    background-color: #000;
+}
+.project h2{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    /* font-family: 'Shizuru', cursive; */
+
+}
+.project p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    /* font-family: 'Shizuru', cursive; */
+}
+.project p:hover{
+    color: #35a22c;
+}
+.project .images .imgbox{
+    overflow: hidden;
+}
+.project .images .imgbox div{
+    overflow: hidden;
+    position: relative;
+}
+.project .images .imgbox div img{
+    cursor: pointer;
+    height: 250px;
+    width: 364px;
+    transition: .4s ease-in-out;
+}
+.project .images .imgbox div:hover img{
+    transform: scale(1.1);
+}
+.project a{
+    text-decoration: none;
+    
+}
+.projectimg{
+        margin-left: 97px;
+}
+.contact {
+    background: url(./images/img2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+.contact::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .3);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.contact .container {
+    position: relative;
+    z-index: 10;
+    color: #fff;
+}
+.contact .container h2 {
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    font-size: 2.5rem;
+}
+.contact .container .form-group {
+position: relative;
+width: 100%;
+height: 50px;
+background: transparent;
+}
+.contact .container .form-group.text-area{
+    height: 100px;
+}
+.contact .container .form-group input{
+    position:absolute;
+    left: 0;
+    top: 0;
+    background: none;
+    border: 1px solid #fff;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    color: #fff;
+    padding: 10px;
+    transition: .3s;
+}
+.contact .container .form-group input:hover{
+    border: 1px solid #35a22c;
+}
+.contact .container .form-group textarea{
+    position:absolute;
+    left: 0;
+    top: 0;
+    background: none;
+    border: 1px solid #fff;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    color: #fff;
+    padding: 10px;
+    transition: .3s;
+}
+.contact .container .form-group textarea:hover{
+    border: 1px solid #35a22c;
+}
+.contact .container .content ul{
+    list-style: none;
+}
+.contact .container .content ul li{
+    background: #f1f1f1;
+    border-radius: 5px;
+    padding: 20px;
+}
+.contact .container .content ul li .form1{
+    padding: 9px;
+}
+.contact .container .content ul li a{
+    font-size: 1rem;
+    color: #111;
+    text-decoration: none;
+    transition: .3s;
+}
+.contact .container .content ul li a i{
+    font-size: 1.3rem;
+    margin-right: 5px;
+    color: black;
+}
+.fa-solid{ 
+    padding: 5px;
+}
+
+.contact .container .content ul li a:hover{
+    color: #35a22c;
+}
+
+/* footer */
+
+footer{
+    background-color: #333;
+    /* display: none; */
+}
+footer .footer .footer-bottom{
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+}
+footer p:last-child{
+    color: black;
+    font-size: 13px;
+}
+#btn1{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+  }
+  #btn1:hover{
+      color: #35a22c;
+  }
+  #btn1 i{
+      font-size: 15px;
+  }

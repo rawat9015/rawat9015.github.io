@@ -1,0 +1,996 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana,sans-serif;
+    box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+nav{
+   
+    height: 54px;
+    background-color:white;
+   position: sticky;
+   top: 0;
+padding-top: 20px;
+padding-left: 20px;
+}
+nav a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    font-family:  Verdana,sans-serif;
+    letter-spacing: 5px;
+    overflow: hidden;
+   
+}
+.button{
+    float: right;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family:  Verdana,sans-serif;
+}
+.button:hover{
+  background-color: lightgrey;
+}
+header{
+    background-image:url(../asstes/architect.jpg);
+    max-width: 100%;
+height:674px;
+}
+header div{
+    font-family: Verdana,  sans-serif;
+    text-align: center;
+    padding-top: 408px;
+padding-left: 130px;
+} 
+header .span1{
+background-color: black;
+color: white;
+padding: 17px;
+opacity: 0.75;
+}
+header .span2{
+font-family: "Segoe UI",Arial,sans-serif;
+font-size: 36px;
+font-weight: 400;
+letter-spacing: 5px;
+color: white;
+}
+.project{
+    color: black;
+font-size: 24px;
+padding-left: 33px;
+padding-top: 80px;
+font-weight: 400;
+font-family: Verdana, sans-serif;
+padding-bottom: 10px;
+border-bottom: 0.5px lightgray solid;
+}
+.main{
+    display: block;
+    margin-left: 50px;
+    margin-top: 35px;
+    justify-content: center;
+
+}
+.main1{
+    display: flex;
+    width: 100%;
+    
+}
+.main2{
+    display: flex;
+    padding-top: 15px;
+}
+.image{
+  background-image: url(../asstes/image1.jpg);
+  width: 50%;
+  height: 205px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}  
+.image2{
+  background-image: url(../asstes/image2.jpg );
+  width: 50%;
+  height: 205px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 15px;
+margin-right: 15px;
+}  
+.image3{
+  background-image: url(../asstes/image3.jpg);
+  width: 50%;
+  height: 205px;
+  background-repeat: no-repeat;
+  background-size: cover;
+ margin-right: 15px;
+}  
+.image4{
+  background-image: url(../asstes/image4.jpg);
+  width: 50%;
+  height: 205px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 15px;
+  
+} 
+.gallery1{
+  display: flex;
+  width: 50%;
+  
+}
+.gallery2{
+  display: flex;
+  width: 50%;
+ 
+} 
+.team2{
+  display: flex;
+ 
+}
+.team3{
+  display: flex;
+  
+}
+.text{
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 5px;
+  float: left;
+}
+.about{
+color: black;
+font-size: 24px;
+padding-left: 33px;
+padding-top: 85px;
+font-weight: 400;
+border-bottom: 0.5px lightgray solid;
+padding-bottom: 15px;
+}
+.lorem{
+padding-left: 34px;
+}
+p{
+padding-top: 22px;
+
+font-size: 15px;
+}
+.team1 img{
+  width: 300px;
+height: 206px;
+margin-top: 50px;
+   
+}
+
+h3{
+font-size: 24px;
+
+font-family: "Segoe UI",Arial,sans-serif;
+font-weight: 400;  
+
+}
+
+.team1 .p{
+opacity: 0.60;
+
+}
+.contact p{
+padding-left: 33px;
+}
+.team1{
+
+display: flex;
+margin-left: 29px;
+  }
+.h3{
+color: black;
+width: 270px;
+height: 38px;
+
+border: none;
+
+}
+
+.h3:hover{
+background-color: grey;
+}
+h4{
+font-size: 24px;
+padding-left: 34px;
+font-family: "Segoe UI",Arial,sans-serif;
+font-weight: 400; 
+margin-top: 70px;
+border-bottom: 0.5px lightgray solid;
+padding-bottom: 15px;
+
+}
+form input{
+padding: 8px;
+display: block;
+border: 1px solid gray;
+width: 97%;
+margin: 31px;
+font-size: 15px;
+}
+.send-message{
+font-size: 15px;
+font-family:"Segoe UI",Arial,sans-serif;
+background-color: black;
+color: white;
+margin: 30px;
+border: none;
+padding:11px;
+width: 153px;
+}
+.map{
+width: 100%; 
+padding: 25px;
+}
+footer{
+width: 100%;
+height: 83px;
+background-color:black;
+margin-top: -15px;
+}
+.footer{
+color: white;
+}
+.footer-p {text-align: center;
+font-size: 15px;
+color: white;
+padding-top: 25px;
+}
+/* small mobile screen */
+@media only screen and (max-width: 320px) {
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana,sans-serif;
+    box-sizing: border-box;
+}
+  body{
+    width: 100%;
+    max-width:320px;
+    overflow-x: hidden;
+
+  }
+  nav{
+    height: 54px;
+    width:100%;
+    position: sticky;
+    top: 0;
+}
+nav a {
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Verdana,sans-serif;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+.button{
+  display: none;
+}
+
+header {
+  background-image: url(./architect.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 140px
+
+}
+header div {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  padding-left: 27px;
+  padding-top: 0px;
+}
+header .span1{
+padding: 11px;
+font-size: 30px;
+}
+header .span2{
+  display: none;
+}
+h1 {
+  padding-top: 49px;
+}
+.main{
+  padding: 0px;
+  margin: 30px;
+}
+.main1{
+  display: block;
+  
+}
+.main2{
+  display: block;
+ padding-top: 0px;
+}
+.image {
+  background-image: url(./image1.jpg);
+  width: 256px;
+  margin-top: 15px;
+ 
+  height: 205px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image2 {
+  background-image: url(./image2.jpg);
+  width: 256px;
+  margin-top: 15px;
+  margin-left: 0px;
+ 
+  height: 205px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image3 {
+  background-image: url(./image3.jpg);
+  width: 256px;
+  margin-top: 15px;
+   
+  height: 205px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image4 {
+  background-image: url(./image4.jpg);
+  width: 256px;
+  margin-top: 15px;
+   
+  height: 205px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery1{
+  display: block;
+  
+}
+.gallery2{
+  display: block;
+} 
+.team3 {
+  display: block;
+}
+.team2 {
+  display: block;
+}
+.lorem{
+  padding-left: 34px;
+  margin: 15px;
+  }
+  .team1 {
+    display: block;
+    margin-left: 29px;
+}
+.team1 img {
+  width: 256px;
+  height: 170px;
+  margin-top: 50px;
+}
+form input {
+  padding: 8px;
+  display: block;
+  border: 1px solid gray;
+  width: 256px;
+  margin: 31px;
+  height: 40px;
+  font-size: 18px;
+}
+footer {
+  width: 320px;
+  height: 84px;
+  background-color: black;
+  margin-top: -15px;
+}
+}
+/* medium mobile screen */
+@media only screen and (min-width:321px) and (max-width: 375px) {
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana,sans-serif;
+    box-sizing: border-box;}
+
+
+    .button {
+      display: none;
+      float: right;
+      height: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-family: Verdana,sans-serif;
+  }
+  header {
+    background-image: url(./architect.jpg);
+    background-size: cover;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+h1 {
+  margin-top: -322px;
+  margin-left: -132px;
+}
+header .span1 {
+  background-color: black;
+  color: white;
+  padding: 13px;
+  opacity: 0.75;
+}
+header .span2 {
+  display: none;
+  
+}
+.main {
+  display: block;
+  margin-left: 35px;
+  margin-top: 35px;
+  justify-content: center;
+}
+.main1 {
+  display: block;
+  width: 100%;
+}
+.gallery1 {
+  display: block;
+  width: 100%;
+}
+.gallery2 {
+  display: block;
+  width: 100%;
+}
+.main2 {
+  display: block;
+  width: 100%;
+}
+.gallery1 {
+  display: block;
+  width: 100%;
+}
+.gallery2 {
+  display: block;
+  width: 100%;
+}
+.image {
+  width: 91.5%;
+  height: 205px;
+  margin-top: 15px; 
+}
+.image2 {
+  width: 91.5%;
+  height: 205px;
+  margin-left: 0px; 
+  margin-top: 15px;
+}
+.image3 {
+  width: 91.5%;
+  height: 205px;
+  margin-left: 0px; 
+  margin-top: 15px;
+}
+.image4 {
+  width: 91.5%;
+  height: 205px;
+  margin-left: 0px; 
+  margin-top: 15px;
+}
+.lorem {
+  padding-left: 34px;
+  width: 92%;
+}
+.team1 {
+  display: block;
+  margin-left: 40px;
+}
+.team2 {
+  display: block;
+}
+.team3 {
+  display: block;
+}
+.h3 {
+  color: black;
+  width: 89%;
+  height: 38px;
+  border: none;
+}
+form {
+  width: 83%;
+}
+form input {
+  padding: 8px;
+  display: block;
+  border: 1px solid gray;
+  width: 97.8%;
+  margin: 31px;
+  font-size: 15px;
+}
+.map {
+  width: 83.2%;
+  margin-left: 32px;
+  margin-bottom: 26px;
+  padding: 0px;
+}
+footer {
+    width: 100%;
+    height: 83px;
+    background-color: black;
+    margin-top: -15px;
+}
+}
+
+ /* large mobile screen  */
+ @media only screen and (min-width:376px) and (max-width: 425px) {
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana,sans-serif;
+    box-sizing: border-box;}
+
+
+    .button {
+      display: none;
+      float: right;
+      height: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-family: Verdana,sans-serif;
+  }
+  header {
+    background-image: url(./architect.jpg);
+    background-size: cover;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+h1 {
+  margin-top: -322px;
+  margin-left: -132px;
+}
+header .span1 {
+  background-color: black;
+  color: white;
+  padding: 19px;
+  opacity: 0.75;
+}
+header .span2 {
+  display: none;
+  
+}
+.main {
+  display: block;
+  margin-left: 35px;
+  margin-top: 35px;
+  justify-content: center;
+}
+.main1 {
+  display: block;
+  width: 100%;
+}
+.gallery1 {
+  display: block;
+  width: 100%;
+}
+.gallery2 {
+  display: block;
+  width: 100%;
+}
+.main2 {
+  display: block;
+  width: 100%;
+}
+.gallery1 {
+  display: block;
+  width: 100%;
+}
+.gallery2 {
+  display: block;
+  width: 100%;
+}
+.image {
+  width: 92.5%;
+  height: 205px;
+  margin-top: 15px; 
+}
+.image2 {
+  width: 92.5%;
+  height: 205px;
+  margin-left: 0px; 
+  margin-top: 15px;
+}
+.image3 {
+  width: 92.5%;
+  height: 205px;
+  margin-left: 0px; 
+  margin-top: 15px;
+}
+.image4 {
+  width: 92.5%;
+  height: 205px;
+  margin-left: 0px; 
+  margin-top: 15px;
+}
+.lorem {
+  padding-left: 34px;
+  width: 92%;
+}
+.team1 img {
+    width: 94%;
+    height: 240px;   
+      margin-top: 50px;
+}
+p {
+  width: 94%;
+  padding-top: 22px;
+  font-size: 15px;
+}
+.team1 {
+  display: block;
+  margin-left: 40px;
+}
+.team2 {
+  display: block;
+}
+.team3 {
+  display: block;
+}
+.h3 {
+  color: black;
+  width: 99%;
+  height: 38px;
+  border: none;
+}
+form {
+  width: 85%;
+}
+form input {
+  padding: 8px;
+  display: block;
+  border: 1px solid gray;
+  width: 100%;
+  margin: 31px;
+  font-size: 15px;
+}
+.map {
+  width: 85.1%;
+  margin-left: 32px;
+  margin-bottom: 26px;
+  padding: 0px;
+}
+footer {
+    width: 100%;
+    height: 83px;
+    background-color: black;
+    margin-top: -15px;
+}
+}
+/* small tablet */
+@media only screen and (min-width:426px) and (max-width: 768px){
+  nav {
+    height: 54px;
+    width: 768px;
+    position: sticky;
+    background-color: white;
+    top: 0;
+}
+  header {
+    background-image: url(./architect.jpg);
+    background-size: cover;
+    max-width: 100%;
+    width: 768px;
+    height: 355px;
+}
+h1 {
+  margin-top: -200px;
+  padding-right: 110px;
+}
+.main1 {
+  display: block;
+}
+.gallery1 {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.main2 {
+  display: block;
+  padding-top: 0px;
+}
+.gallery2 {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.team1 {
+  display: block;
+  margin-left: 29px;
+}
+.team1 img {
+  width: 343px;
+  height: 229px;
+  margin-top: 50px;
+}
+.h3 {
+  color: black;
+  width: 342px;
+  height: 38px;
+  border: none;
+}
+form input {
+  padding: 8px;
+  display: block;
+  border: 1px solid gray;
+  width: 704px;
+  height: 40px;
+  margin: 31px;
+  font-size: 15px;
+}
+.map {
+  width: 768px;
+  height: 396px;
+  /* width: 100%; */
+  padding: 25px;
+}
+footer {
+  width: 768px;
+  height: 84px;
+  background-color: black;
+  margin-top: -15px;
+}
+}
+
+@media only screen and (min-width:769px) and (max-width: 1024px){
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana,sans-serif;
+    box-sizing: border-box;
+}
+  nav {
+    width: 1024px;
+    height: 54px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+header {
+  background-image: url(./architect.jpg);
+  background-size: cover;
+  width: 1024px;
+  max-width: 100%;
+  height: 492px;
+}
+h1 {
+  padding-right: 192px;
+  margin-top: -96px;
+}
+.main{
+  
+    padding: 36px;
+    
+}
+.lorem {
+  height: 110px;
+  width: 960px;
+  padding-left: 20px;
+}
+
+  .image {
+    background-image: url(./image1.jpg);
+    width: 227px;
+    height: 151px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image2 {
+  background-image: url(./image2.jpg);
+  width: 227px;
+  height: 151px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image3 {
+  background-image: url(./image3.jpg);
+  width: 227px;
+  height: 151px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image4 {
+  background-image: url(./image4.jpg);
+  width: 227px;
+  height: 151px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  padding-right: 22px;
+  padding-left: 22px;
+  float: left;
+}
+.team1 img {
+  width: 227px;
+  height: 151px;
+  margin-top: 50px;
+}
+.div1{
+  margin-left: -7px;
+}
+.div2 {
+  margin-left: -30px;
+}
+.div3{
+  margin-left: -30px;
+}
+.div4{
+  margin-left: -40px;
+}
+.h3 {
+  color: black;
+  width: 227px;
+  height: 38px;
+  border: none;
+}
+p {
+  padding-top: 22px;
+  padding-right: 32px;
+  font-size: 15px;
+}
+form input {
+  padding: 8px;
+  display: block;
+  border: 1px solid gray;
+  width: 960px;
+  height: 40px;
+  margin: 31px;
+  font-size: 15px;
+}
+footer {
+  width: 1024px;
+  height: 84px;
+  background-color: black;
+  margin-top: -15px;
+}
+.map {
+  width:100%;
+  height: 540px;
+  padding: 22px;
+}
+}
+/*
+@media only screen and (min-width:1025px) and (max-width: 1440px){
+  
+  nav {
+    width: 1024px;
+    height: 54px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+header {
+  background-image: url(./architect.jpg);
+  background-size: cover;
+  width: 1024px;
+  max-width: 100%;
+  height: 492px;
+}
+h1 {
+  padding-right: 192px;
+  margin-top: -96px;
+}
+.main{
+  
+    padding: 36px;
+    
+}
+.lorem {
+  height: 110px;
+  width: 960px;
+  padding-left: 20px;
+}
+
+  .image {
+    background-image: url(./image1.jpg);
+    width: 227px;
+    height: 151px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image2 {
+  background-image: url(./image2.jpg);
+  width: 227px;
+  height: 151px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image3 {
+  background-image: url(./image3.jpg);
+  width: 227px;
+  height: 151px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image4 {
+  background-image: url(./image4.jpg);
+  width: 227px;
+  height: 151px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  padding-right: 22px;
+  padding-left: 22px;
+  float: left;
+}
+.team1 img {
+  width: 227px;
+  height: 151px;
+  margin-top: 50px;
+}
+.div1{
+  margin-left: -7px;
+}
+.div2 {
+  margin-left: -30px;
+}
+.div3{
+  margin-left: -30px;
+}
+.div4{
+  margin-left: -40px;
+}
+.h3 {
+  color: black;
+  width: 227px;
+  height: 38px;
+  border: none;
+}
+p {
+  padding-top: 22px;
+  padding-right: 32px;
+  font-size: 15px;
+}
+form input {
+  padding: 8px;
+  display: block;
+  border: 1px solid gray;
+  width: 960px;
+  height: 40px;
+  margin: 31px;
+  font-size: 15px;
+}
+footer {
+  width: 1024px;
+  height: 84px;
+  background-color: black;
+  margin-top: -15px;
+}
+.map {
+  width:100%;
+  height: 540px;
+  padding: 22px;
+ } }  */

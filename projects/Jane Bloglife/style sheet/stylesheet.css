@@ -1,0 +1,743 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #ddd;
+}
+nav{
+background-color: black;
+width: 100%;
+height: 38px;
+}
+.fab{
+color: white;
+font-size: 16px;
+padding: 15px;
+padding-bottom: 7px;
+}
+.fab:hover{
+background-color:lightgray;
+color: black;
+}
+.fas{
+color: white;
+font-size: 16px;
+padding: 15px;
+padding-bottom: 7px;
+float: right;
+}
+.fas:hover{
+background-color:lightgray;
+color: black;
+}
+header{
+background-color: white;
+width: 100%;
+height: 140px;
+color: black;
+text-align: center;
+padding-top: 48px;
+padding-bottom: 48px;
+}
+h6{font-weight: 500;
+font-size: 16px;
+margin: 10px;
+font-family: 'Oswald', sans-serif;
+}
+.jane{
+background-color: black;
+color: white;
+padding-right: 9px;
+    padding-left: 9px;
+}
+
+h1 b{
+font-size: 48px;
+font-family: 'Oswald', sans-serif;
+}
+.img-header{
+background-image: url(../assets/jane.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 812px;
+text-align: unset;
+color: white;
+}
+.img-header h1{font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+.img-header b{font-size: 64px;
+
+}
+.img-header h6 button{
+    background-color: white;
+    color: black;
+    opacity: 0.60;
+    border: none;
+    font-size: 18px;
+    padding: 15px;
+}
+.img-header div{
+float: left;
+letter-spacing: 4px;
+margin-left: 22px;
+margin-top: 288px;
+}
+section{
+
+    display: flex;
+width: 100%;
+background-color:#ddd;
+
+}
+.main-1{
+    margin: 15px;
+    width: 67%;
+    height: 3541px;
+    background-color: #ddd;
+}
+.main-2{
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 33%;
+    height: 2213px;
+    background-color: #ddd;
+}
+.content-1{
+    padding: 17px;
+    margin: 16px;
+    height: 1166px;
+    background-color:white;
+    text-align: center;
+}
+.content-2{
+    padding: 17px;
+    margin: 16px;
+    height: 1110px;
+    background-color:white;
+    text-align: center;
+}
+.content-3{
+    padding: 17px;
+    margin: 16px;
+    height: 1101px;
+    background-color:white;
+    text-align: center;
+}
+.main-1 h3{
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+}
+.main-1 h5{
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;}
+.main-1 .span1{
+    background-color: white;
+    opacity: 0.60;
+    color: black;
+}
+
+.girl-hat img{
+    width: 100%;
+    padding-top: 16px;
+
+}
+.girl-hat .para1{
+    font-size: 17px;
+    font-family: open Sans;
+    text-align: justify;
+    padding-top: 30px;
+    line-height: 1.5;
+}
+.girl-hat .fas{
+padding: 0px;
+padding-bottom: 0px;
+padding-top: 2px;
+    padding-left: 10px;
+        font-size: 17px;
+        font-family: "Font Awesome 5 Pro";
+        
+        color: black;
+        float: left;
+}
+.girl-hat b{
+    font-size: 17px;
+}
+.girl-hat .buttons{
+    padding-top: 30px;
+    height: 69px;
+}
+.like:hover{
+     background-color:lightgrey;
+}
+.replies1{
+    background-color: black;
+    float: right;
+    width: 125px;
+    color: white;
+    border: lightgray 1px solid;
+    height: 45px;
+}
+.like{
+    background-color: white;
+    float: left;
+    width: 85px;
+    border: lightgray 1px solid;
+    height: 40px;
+}
+.replies1 span{
+    background-color: white;
+    color: black;
+    padding: 7px;
+    
+}
+.replies1:hover{
+    background-color: lightgrey;
+    color: black;
+}
+.George{
+    height: 141px;
+}
+.George img{
+    width: 12.2%;
+    height: 115px;
+    float: left;
+}
+.George-text{
+    padding-left: 130px;
+    padding-top: 40px;
+    text-align: justify;
+
+}
+.George-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    
+}
+.George-text p{
+    font-size: 17px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.George-text span{
+    font-size: 16px;
+    opacity: 0.60
+}
+.div1 img{
+    width: 100%;
+}
+.my-name{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: -5px;
+    font-size: 18px;
+}
+.div2{
+    margin-top: 40px;
+    background-color: white;
+
+}
+.popular-posts{
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.li-1{
+    display: flex;
+
+    padding: 18px 16px;
+    border-bottom: 1px solid #ddd;
+
+}
+.li-1 img{
+    width: 15%;
+}
+.denim {font-size: 20px;
+    font-weight: 600;
+    padding:10px;
+}
+.Sed{font-weight: 600;
+    padding:10px;
+    font-size: 17px;
+}
+.div3{
+    margin-top: 16px;
+}
+.main2-h{
+    margin-top: 20px;
+    color:#fff;
+    background-color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+.AD{
+    background-color: #fff;
+    padding: 0.01em 16px;
+    height: 240px;
+}
+.AD1{
+    padding-top: 100px;
+    height: 114px;
+    color: black;
+    align-items: center;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.tags{
+    background-color: #fff;
+    height: 190px;
+    word-spacing: 36px;
+    line-height: 32px;
+    padding: 0.01em 16px;
+}
+.tags .fashion{
+    background-color: black;
+    color: white;
+}
+.tags span{
+    background-color: #f1f1f1;
+    color: black;
+}
+.div5{
+    background-color:white;
+}
+.div5 .ins1{
+display: flex;
+}
+.div5 .ins2{
+    display: flex;
+}
+.ins1 img{
+    padding: 10px;
+    width: 45%;
+}
+.ins2 img{
+    padding: 10px;
+    width: 45%;
+}
+.div6{
+background-color: white;
+}
+.fab2{
+    font-size: 25px;
+    color: black;
+    padding: 11px;
+    padding-right: 1px;
+}
+.subscribe{
+    padding: 10px;
+background-color: white;
+
+}
+input{
+    margin-top: 10px;
+    width: 99%;
+    height: 43px;
+}
+.sub-button{
+    background-color:#d14949;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 56%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 92px;
+}
+footer{
+    background-color: #616161;
+    color: #ffffff;
+    padding: 32px;
+    height: 100px;
+}
+.fas2{
+color:white;
+    font-size: 19px;
+}
+.footer-btn{
+    border: none;
+  color: white;
+  padding: 8px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color:#000;
+}
+.to-the-top{
+    padding-left: 10px;
+}
+.powered{
+    padding-top: 30px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+/* responsiveness */
+/* small------mobile */
+@media only screen and (max-width: 320px){
+    *{
+    margin: 0;
+    padding: 0;}
+
+nav {display: none;}
+
+    .img-header{
+        background-image: url(../assets/jane.jpg);
+    background-position: center;
+    height: 100px;
+    background-size: cover;}
+    .img-header div{
+        margin-top: 0%;
+    }
+    .img-header b {
+        display: none;
+
+    }
+    .img-header h6 button{
+        margin-left: -10px;
+        padding: 8pxO;
+    }
+    section {
+        display: block;
+    }
+    .main-1 {
+        margin: 0px;
+        width: 100%;
+        height: 3565px;
+       
+    }
+    .content-1{
+        margin: 25px;
+        height: 1249px;
+    }
+    .George img {
+        width: 40.2%;
+        height: 115px;
+        float: none;
+    }
+    .George-text {
+      padding-left:27px; 
+     padding-top: 0px; 
+        text-align: justify;
+    }
+    .content-2{
+        height: 1071px;
+    }
+    .main-2 {
+         margin-right: 0px;
+        width: 97%;
+    }
+    .div1{
+        margin: 15px;
+    }
+    .div2{
+margin: 15px;
+    }
+    .div3{
+        margin: 15px;
+    }
+    .div4{
+        margin: 15px;
+    }
+    .div5{
+        margin: 15px;
+    }
+    .div6{
+        margin: 15px;
+    }
+    .div7{
+        margin: 15px;
+    }
+    .sub-button{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+}
+/* medium------mobile */
+
+@media only screen and (min-width:321px) and (max-width:375px){
+    *{
+        margin: 0;
+        padding: 0;}
+    
+    nav {display: none;}
+    
+        .img-header{
+            background-image: url(../assets/jane.jpg);
+        background-position: center;
+        height: 138px;
+        background-size: cover;}
+        .img-header div{
+            margin-top: 0%;
+        }
+        .img-header b {
+            display: none;
+    
+        }
+        .img-header h6 button{
+            margin-left: -10px;
+            padding: 8pxO;
+        }
+        section {
+            display: block;
+        }
+        .main-1 {
+            margin: 0px;
+            width: 100%;
+            height: 3565px;
+           
+        }
+        .content-1{
+            margin: 25px;
+            height: 1249px;
+        }
+        .George img {
+            width: 40.2%;
+            height: 115px;
+            float: none;
+        }
+        .George-text {
+          padding-left:27px; 
+         padding-top: 0px; 
+            text-align: justify;
+        }
+        .content-2{
+            height: 1071px;
+        }
+        .main-2 {
+             margin-right: 0px;
+            width: 97%;
+        }
+        .div1{
+            margin: 15px;
+        }
+        .div2{
+    margin: 15px;
+        }
+        .div3{
+            margin: 15px;
+        }
+        .div4{
+            margin: 15px;
+        }
+        .div5{
+            margin: 15px;
+        }
+        .div6{
+            margin: 15px;
+        }
+        .div7{
+            margin: 15px;
+        }
+        .sub-button{
+            width: 100%;
+            margin-left: 0px;
+        } 
+}
+/* large--mobile */
+@media only screen and (min-width:376px) and (max-width:425px){
+    *{
+        margin: 0;
+        padding: 0;}
+    
+    nav {display: none;}
+    
+        .img-header{
+            background-image: url(../assets/jane.jpg);
+        background-position: center;
+        height: 170px;
+        background-size: cover;}
+        .img-header div{
+            margin-top: 0%;
+        }
+        .img-header b {
+            display: none;
+    
+        }
+        .img-header h6 button{
+            margin-left: -10px;
+            padding: 8pxO;
+        }
+        section {
+            display: block;
+        }
+        .main-1 {
+            margin: 0px;
+            width: 100%;
+            height: 3477px;
+           
+        }
+        .content-1{
+            margin: 25px;
+            height: 1160px;
+        }
+        .George img {
+            width: 40.2%;
+            height: 139px;
+            float: none;
+        }
+        .George-text {
+          padding-left:81px; 
+         padding-top: 0px; 
+            text-align: justify;
+        }
+        .content-2{
+            height: 1071px;
+        }
+        .main-2 {
+             margin-right: 0px;
+            width: 97%;
+            height: 2240px;
+        }
+        .div1{
+            margin: 15px;
+        }
+        .div2{
+    margin: 15px;
+        }
+        .div3{
+            margin: 15px;
+        }
+        .div4{
+            margin: 15px;
+        }
+        .div5{
+            margin: 15px;
+        }
+        .div6{
+            margin: 15px;
+        }
+        .div7{
+            margin: 15px;
+        }
+        .sub-button{
+            width: 100%;
+            margin-left: 0px;
+        } 
+}
+@media only screen and (min-width:426px) and (max-width:768px){
+
+    *{
+        margin: 0;
+        padding: 0;}
+    
+    
+        .img-header{
+            background-image: url(../assets/jane.jpg);
+        background-position: center;
+        height: 384px;
+        background-size: cover;}
+
+        .img-header div{
+            margin-top: 0%;
+        }
+        .img-header h6 button{
+            margin-left: -10px;
+            padding: 8pxO;
+        }
+        section {
+            display: block;
+        }
+        .main-1 {
+            margin: 0px;
+            width: 100%;
+            height: 3477px;
+           
+        }
+        .content-1{
+            margin: 25px;
+            height: 1108px;
+        }
+        .George img{
+                width: 15.2%;
+                height: 114px;
+                float: left;
+        }
+        .George-text {
+          padding-left:142px; 
+         padding-top: 31px; 
+            text-align: justify;
+        }
+        .content-2{
+            height: 1071px;
+        }
+        .content-3{
+            height: 1059px;
+        }
+        .main-2 {
+             margin-right: 0px;
+            width: 97%;
+            height: 2751px;
+        }
+        .div1{
+            margin: 15px;
+        }
+        .div2{
+    margin: 15px;
+        }
+        .div3{
+            margin: 15px;
+        }
+        .div4{
+            margin: 15px;
+        }
+        .div5{
+            margin: 15px;
+        }
+        .div6{
+            margin: 15px;
+        }
+        .div7{
+            margin: 15px;
+        }
+        .sub-button{
+            width: 100%;
+            margin-left: 0px;
+        } 
+}
+@media only screen and (min-width:767px) and (max-width:1024px){
+    .content-1{
+        height: 1086px;
+    }
+    .George img {
+        width: 18.2%;
+        height: 120px;
+    }
+    .content-2{
+        height: 1015px;
+    }
+    .content-3{
+        height: 1007px;
+    }
+    .main-1{
+        height: 3300px;
+    }
+    .sub-button{
+       margin-left: 76px;
+       width: 78%; 
+    }
+
+}
