@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+:root{
+    --theme:#20c997;
+}
 .second-div{
     margin-left: 300px;
 }
@@ -127,6 +130,7 @@ header .header-content .content p{
 .bg-dark-light{
     background-color: #343a40 !important;
    }
+  
 #about .h2{
     font-size: 125px;
 }
@@ -183,7 +187,21 @@ a{
     font-size: 125px;
 
 }
-
+.bg-dark-max{
+    background-color: #111418 !important;
+   }
+   .bg-dark-max .badge{
+    background-color: #20c997;
+   }
+   .bg-dark-max h4{
+    letter-spacing: 0.5px;
+   }
+   .progress{
+    height: 7px !important;
+   }
+   .progress-bar{
+    background-color: #20c997 !important;
+   }
 /* about me end ******* */
 
   @media (max-width:321px){
