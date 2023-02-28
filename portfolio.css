@@ -230,6 +230,24 @@ a{
     width: 260px !important;
     height: 420px !important;
 }
+.photoshop1{
+    width: 260px;
+}
+.photoshop2{
+    width: 500px;
+    height: 236px !important;
+}
+
+/* contact ########### */
+#contact .h2{
+    font-size: 125px;
+
+}
+.grey{
+    color: #808080c9;
+}
+
+/* contact end ##############3 */
 
 /* about me end ******* */
 
