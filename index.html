@@ -40,6 +40,7 @@
 <body>
     <!-- nav start -->
     <button onclick="topfunction()" id="btn1"><i class="fas fa-arrow-up px-1"></i>top</button>
+
     <div class="main-container">
         <nav class="navbar navbar-expand-lg fixed-top bg-dark-max">
             <div class="container-fluid d-block img1">
@@ -820,11 +821,44 @@
 
         </div>
     </div>
+    <button id="top" onclick="scrolltop()">top</button>
+
+
+    <script>
+        var button = document.getElementById("top");
+
+        function scrollfun(){
+        if(document.body.scrollTop > 20 || document.scrollTop.documentElement >  20 ){
+            button.style.display="block";
+        }
+        else{
+            button.style.display="none";
+
+        }
+    }
+
+    window.onscroll =  function(){
+        scrollfun();
+    }
+
+
+    function scrolltop(){
+        
+    }
+
+
+    </script>
     <script>
         var button = document.getElementById("btn1");
+        
         function scrollfun() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) { button.style.display = "block"; }
-            else { button.style.display = "none"; }
+            if (document.body.scrollTop > 20 || documnt.scrollToent.documentElemep > 20) { 
+
+                button.style.display = "block";
+             }
+
+            else { button.style.display = "none"; 
+        }
 
         }
         window.onscroll = function () { scrollfun() };
