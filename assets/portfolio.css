@@ -348,6 +348,10 @@ input{
     background-color: #20c997 !important;
 }
 
+.typed-cursor{
+    font-size: 45px !important;
+    color: #20c997;
+}
 /* contact end ##############3 */
 
 /* about me end ******* */

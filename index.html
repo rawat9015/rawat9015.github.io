@@ -42,13 +42,16 @@
                     <p class="fs-5 text-center"> Neha Rawat</p>
                 </a>
 
+
+                
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
 
-                <div class="collapse navbar-collapse text-center" id="navbarSupportedContents"
+                <div class="collapse navbar-collapse text-center" id="navbarSupportedContent"
                     style="justify-content: center;">
                     <ul class="navbar-nav ml-auto d-block">
                         <li class="nav-item">
@@ -103,7 +106,7 @@
                             <span class="text1 first-text fs-1">I'm Neha Rawat</span>
                             <br>
                             <span class=" fs-1">a</span>
-                            <span class="text1 sec-text fs-1">Coder</span>
+                            <span class="text1 fs-1" id="element"></span>
                         </div>
                         <a href="" class="mt-5 hire btn btn-outline-primary rounded-pill p-3">Hire Me</a>
                         <i class="fa-solid fa-arrow-down d-block mt-5"></i>
@@ -584,6 +587,7 @@
         </div>
     </div>
 
+
     <!-- jquery -->
     <script src="./js/jquery.min.js"></script>
 
@@ -596,6 +600,21 @@
 
     <!-- bootstrap js  -->
     <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+     <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['&nbsp;Coder','&nbsp;Web Developer'],
+      typeSpeed: 200,
+      loop: true,
+  loopCount: Infinity,
+  backSpeed: 200,
+ 
+    });
+  </script>
 </body>
 
 </html>

@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
     <style>
-        *{
+        /* *{
             margin: 0;
             padding: 0;
         }
@@ -19,10 +21,30 @@
        h1{
         font-size: 125px;
         
-       }
+       } */
     </style>
 </head>
 <body>
+    <!-- <div class="contact">
+         <h1>form here</h1>
+    </div> -->
+
+      <!-- Element to contain animated typing -->
+  <span id="element"></span>
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+  strings: ['This is a JavaScript library', 'This is an ES6 module'],
+  smartBackspace: true, 
+  loop: true,
+  loopCount: Infinity,
+  // Default value
+});
+  </script>
 
 </body>
 </html>
