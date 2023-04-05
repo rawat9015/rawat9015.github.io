@@ -23,21 +23,3 @@
 
 // <!-- banner animtion -->
 
-    const text = document.querySelector(".sec-text");
-
-    const wordbreak = () => {
-        setTimeout(() => {
-            text.textContent = "Coder"
-        }, 0);
-
-        setTimeout(() => {
-            text.textContent = "Web Designer"
-        }, 4000);
-
-        setTimeout(() => {
-            text.textContent = "Web Developer"
-        }, 8000);
-    }
-    wordbreak();
-    setInterval(wordbreak, 12000);
-

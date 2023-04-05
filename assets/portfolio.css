@@ -22,30 +22,12 @@
     position: relative;
     background-attachment: fixed;
 }
-.text1{
-    position: relative;
-}
-.sec-text{
+.typed-cursor{
+    font-size: 45px !important;
     color: #20c997;
 }
-.sec-text::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color:#20c997;
-    border-left: 2px solid white;
-    animation: break 4s steps(25) infinite;
-}
-@keyframes break{
-    40% ,60%{
-         left: 100%;
-    }
-    100%{
-           left: 0%;
-    }
+.text1{
+    font-size: 45px !important;
 }
 
 
@@ -150,18 +132,21 @@ header .header-content .content {
 }
 
 header .header-content .content h2 {
-    /* color: #fff; */
     font-weight: 600;
     font-size: 3rem;
 }
 
 header .header-content .content p {
-    /* color: #fff; */
     font-weight: 500;
     font-size: 2rem;
 
 }
+header .header-content .content :nth-child(4) {
+    font-size: 25px;
+    text-decoration: none;
+ color:#fff;
 
+}
 /* header end ********* */
 
 /* about me start ******* */
@@ -348,10 +333,7 @@ input{
     background-color: #20c997 !important;
 }
 
-.typed-cursor{
-    font-size: 45px !important;
-    color: #20c997;
-}
+
 /* contact end ##############3 */
 
 /* about me end ******* */
