@@ -339,9 +339,9 @@ input{
 /* about me end ******* */
 
 @media (max-width:321px) {
-    /* nav.navbar {
+    nav.navbar {
         display: none;
-    } */
+    }
 
     .second-div {
         margin-left: 0px;
