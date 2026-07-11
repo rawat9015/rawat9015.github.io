@@ -123,7 +123,9 @@
       <div class="about-grid">
         <div class="glass-card about-card reveal">
           <div class="about-photo">
-            <div class="about-photo-inner"><i class="fa-solid fa-user-astronaut"></i></div>
+            <div class="about-photo-inner">
+              <img src="./doc/photo.png" alt="Neha Rawat" loading="eager" />
+            </div>
           </div>
           <h3>Neha Rawat</h3>
           <p class="muted">Full Stack Developer · India</p>
@@ -365,27 +367,25 @@
             <a href="#" aria-label="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
           </div>
         </div>
-        <form id="contactForm" class="glass-card contact-form reveal" novalidate>
+        <form class="glass-card contact-form reveal" onsubmit="event.preventDefault(); alert('Message sent!');">
           <div class="field">
-            <label for="contactName">Your Name</label>
-            <input id="contactName" name="name" type="text" placeholder="Jane Doe" required autocomplete="name" />
+            <label>Your Name</label>
+            <input type="text" placeholder="Jane Doe" required />
           </div>
           <div class="field">
-            <label for="contactEmail">Email Address</label>
-            <input id="contactEmail" name="email" type="email" placeholder="jane@company.com" required autocomplete="email" />
+            <label>Email Address</label>
+            <input type="email" placeholder="jane@company.com" required />
           </div>
           <div class="field">
-            <label for="contactSubject">Subject</label>
-            <input id="contactSubject" name="subject" type="text" placeholder="Let's work together" required />
+            <label>Subject</label>
+            <input type="text" placeholder="Let's work together" />
           </div>
           <div class="field">
-            <label for="contactMessage">Message</label>
-            <textarea id="contactMessage" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            <label>Message</label>
+            <textarea rows="5" placeholder="Tell me about your project..." required></textarea>
           </div>
-          <div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
-          <button id="contactSubmit" type="submit" class="btn btn-primary btn-block">
-            <span class="btn-label">Send Message <i class="fa-solid fa-paper-plane"></i></span>
-            <span class="btn-spinner" aria-hidden="true"><i class="fa-solid fa-spinner fa-spin"></i></span>
+          <button type="submit" class="btn btn-primary btn-block">
+            Send Message <i class="fa-solid fa-paper-plane"></i>
           </button>
         </form>
       </div>

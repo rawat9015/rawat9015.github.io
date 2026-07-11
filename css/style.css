@@ -378,6 +378,10 @@ img { max-width: 100%; display: block; }
   width: 100%; height: 100%; border-radius: 50%;
   background: var(--card); display: grid; place-items: center;
   font-size: 3rem; color: var(--accent);
+  overflow: hidden;
+}
+.about-photo-inner img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
 }
 .about-card h3 { font-size: 1.4rem; margin-bottom: 6px; }
 .about-meta { text-align: left; margin: 24px 0; }
