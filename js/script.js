@@ -140,7 +140,7 @@ const projects = [
     icon: 'fa-solid fa-building-user',
     bg: 'pg-1',
     // image: 'projects/property-template/assets/images/apartment.png',
-    image: 'assets/project-ss/erp.png',
+    image: 'assets/project-ss/ERP.png',
 
     github: '#',
     live: '#'
