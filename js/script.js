@@ -135,65 +135,101 @@ const projects = [
   {
     title: 'Employee Self Service Portal',
     desc: 'Comprehensive HR portal for leave, attendance, payroll and employee management.',
-    long: 'A full-featured HR platform enabling employees to manage leaves, view payslips, mark attendance, and communicate with HR — with a powerful admin dashboard for approvals and reporting.',
-    tech: ['PHP', 'Laravel', 'MySQL', 'Bootstrap'],
+    long: 'A comprehensive ERP platform developed for a non-profit organization to streamline scholarship applications, employee operations, volunteer management, and internal workflows. The system centralizes program management, user accounts, approvals, and administrative processes while ensuring secure and efficient data handling.',
+    tech: ['PHP', 'Codeigniter 4', 'MySQL', 'Bootstrap'],
     icon: 'fa-solid fa-building-user',
-    bg: 'pg-1'
+    bg: 'pg-1',
+    // image: 'projects/property-template/assets/images/apartment.png',
+    image: 'assets/project-ss/erp.png',
+
+    github: '#',
+    live: '#'
   },
   {
-    title: 'BoroBazar MERN Clone',
-    desc: 'Full-featured grocery marketplace built with the MERN stack.',
-    long: 'End-to-end e-commerce experience with cart, checkout, order tracking, product filtering, admin panel and secure payments.',
-    tech: ['React', 'Node', 'MongoDB', 'Express'],
+    title: 'Support Management System',
+    desc: 'Designed and developed a ticket-based support system with user and admin panels for raising, assigning, and tracking issues.',
+    long: 'Designed and developed a ticket-based support system with user and admin panels for raising, assigning, and tracking issues. Implemented role-based access control and automated email notifications to improve response time and issue resolution.',
+    tech: ['PHP', 'Codeigniter 3', 'MySQL', 'Bootstrap'],
     icon: 'fa-solid fa-cart-shopping',
-    bg: 'pg-2'
+    bg: 'pg-2',
+    // image: 'projects/BR Architechs/asstes/image1.jpg',
+    image: 'assets/project-ss/support-ticket-system.png',
+
+    github: 'https://github.com/rawat9015/support-ticket-system',
+    live: '#'
+  },
+
+  {
+    title: 'URL Shortener',
+    desc: 'A secure and efficient URL shortening application built with Node.js.',
+    long: 'A full-stack URL Shortener that converts long URLs into short, shareable links. Features unique short code generation, redirection, click tracking, and RESTful APIs, built using Node.js, Express.js, MongoDB, and Mongoose.',
+    tech: ['Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'REST API'],
+    icon: 'fa-solid fa-link',
+    bg: 'pg-3',
+    image: 'assets/project-ss/url-shortener.png',
+    github: '#',
+    live: '#'
   },
   {
-    title: 'CareerConnect',
-    desc: 'Modern job portal connecting candidates with recruiters.',
-    long: 'A job board with role-based auth, saved jobs, application tracking, resume uploads and recruiter dashboard.',
-    tech: ['React', 'Node', 'MongoDB', 'JWT'],
-    icon: 'fa-solid fa-briefcase',
-    bg: 'pg-3'
+    title: 'Nykaa Clone',
+    desc: 'A responsive frontend clone of the Nykaa beauty and cosmetics website.',
+    long: 'Designed and developed a pixel-perfect frontend clone of the Nykaa website using HTML, CSS, Bootstrap, and JavaScript. The project replicates the modern UI with responsive layouts, interactive navigation, product showcase sections, promotional banners, and a smooth user experience across devices.',
+    tech: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
+    icon: 'fa-solid fa-bag-shopping',
+    bg: 'pg-3',
+    image: 'projects/nykaa/asstes/beauty-advise1.jpg',
+    github: 'https://github.com/rawat9015/rawat9015.github.io/tree/master/projects/nykaa',
+    live: 'projects/nykaa/src/index.html'
   },
   {
-    title: 'Netflix Clone',
-    desc: 'Pixel-perfect Netflix UI clone with dynamic movie data.',
-    long: 'Streaming interface with hero banner, category rows, trailer previews and responsive design powered by TMDB API.',
-    tech: ['React', 'TMDB API', 'CSS'],
-    icon: 'fa-solid fa-film',
-    bg: 'pg-4'
+    title: 'Modern House',
+    desc: 'A responsive real estate website template with a modern and elegant UI.',
+    long: 'Designed and developed a modern real estate landing page featuring property listings, search filters, agent profiles, featured properties, and responsive layouts. Built with HTML, CSS, Bootstrap, and JavaScript, focusing on clean design, smooth user experience, and mobile responsiveness.',
+    tech: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
+    icon: 'fa-solid fa-house',
+    bg: 'pg-4',
+    image: 'assets/project-ss/modren-house.png',
+    github: 'https://github.com/rawat9015/rawat9015.github.io/tree/master/projects/property-template',
+    live: 'projects/property-template/index.html'
   },
+  
   {
-    title: 'Portfolio Website',
-    desc: 'Personal portfolio showcasing my projects and skills.',
-    long: 'A premium, responsive portfolio site with smooth animations, dark theme, and modular architecture ready for CMS integration.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    icon: 'fa-solid fa-user-tie',
-    bg: 'pg-5'
-  },
+  title: 'Todo App',
+  desc: 'A modern task management application built with Laravel, React, and Inertia.js.',
+  long: 'Developed a responsive Todo application using Laravel, React, and Inertia.js, enabling seamless task creation, updating, and deletion without traditional REST APIs or page reloads. Leveraged Inertia.js to deliver a smooth single-page application experience while keeping the backend and frontend tightly integrated.',
+  tech: ['Laravel', 'React', 'Inertia.js', 'PHP', 'JavaScript'],
+  icon: 'fa-solid fa-list-check',
+  bg: 'pg-5',
+  image: 'assets/project-ss/TODO.jpg',
+  github: 'https://github.com/rawat9015/laravel-react-todo',
+  live: '#'
+},
   {
-    title: 'Todo App',
-    desc: 'Clean and delightful task manager with local persistence.',
-    long: 'Minimalist todo app supporting categories, due dates, filtering, drag-and-drop reordering and dark/light theme.',
-    tech: ['React', 'LocalStorage'],
-    icon: 'fa-solid fa-list-check',
-    bg: 'pg-6'
-  }
+  title: 'Age Calculator',
+  desc: 'A responsive React application to calculate age accurately from a selected birth date.',
+  long: 'Developed a lightweight and interactive Age Calculator using React that instantly calculates a users exact age in years, months, and days. Focused on clean UI, responsive design, efficient state management, and a smooth user experience.',
+  tech: ['React', 'JavaScript', 'CSS'],
+  icon: 'fa-solid fa-calendar-days',
+  bg: 'pg-6',
+  image: 'assets/project-ss/age-calculator.jpg',
+  github: 'https://github.com/rawat9015/mini-age-calculator',
+  live: 'https://mini-age-calculator.vercel.app/'
+},
+
 ];
 const projectsGrid = document.getElementById('projectsGrid');
 projectsGrid.innerHTML = projects.map((p, i) => `
   <article class="project-card reveal" data-idx="${i}">
-    <div class="project-image ${p.bg}">
-      <i class="${p.icon} glyph"></i>
+    <div class="project-image ${p.bg} ${p.image ? 'has-image' : ''}">
+      ${p.image ? `<img src="${p.image}" alt="${p.title} preview" loading="lazy">` : `<i class="${p.icon} glyph"></i>`}
     </div>
     <div class="project-body">
       <h3>${p.title}</h3>
       <p>${p.desc}</p>
       <div class="tech-badges">${p.tech.map(t => `<span>${t}</span>`).join('')}</div>
       <div class="project-actions">
-        <a href="#" class="btn btn-ghost" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i> Code</a>
-        <a href="#" class="btn btn-primary" onclick="event.stopPropagation()"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+        <a href="${p.github}" class="btn btn-ghost" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()"><i class="fa-brands fa-github"></i> Code</a>
+        <a href="${p.live}" class="btn btn-primary" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
       </div>
     </div>
   </article>
@@ -207,14 +243,16 @@ document.querySelectorAll('.project-card').forEach(card => {
   card.addEventListener('click', () => {
     const p = projects[card.dataset.idx];
     modalBody.innerHTML = `
-      <div class="modal-hero ${p.bg}"><i class="${p.icon}"></i></div>
+      <div class="modal-hero ${p.bg} ${p.image ? 'has-image' : ''}">
+        ${p.image ? `<img src="${p.image}" alt="${p.title} preview">` : `<i class="${p.icon}"></i>`}
+      </div>
       <div class="modal-content">
         <h3>${p.title}</h3>
         <p>${p.long}</p>
         <div class="tech-badges">${p.tech.map(t => `<span>${t}</span>`).join('')}</div>
         <div class="project-actions">
-          <a href="#" class="btn btn-ghost"><i class="fa-brands fa-github"></i> GitHub</a>
-          <a href="#" class="btn btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+          <a href="${p.github}" class="btn btn-ghost" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="${p.live}" class="btn btn-primary" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
         </div>
       </div>
     `;
@@ -231,6 +269,76 @@ modal.addEventListener('click', (e) => {
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') { modal.classList.remove('open'); document.body.style.overflow = ''; }
 });
+/* -----------------------
+   Contact form
+----------------------- */
+const contactForm = document.getElementById('contactForm');
+const formStatus = document.getElementById('formStatus');
+const submitButton = document.getElementById('contactSubmit');
+const formEndpoint = 'https://formsubmit.co/ajax/nr7584128@gmail.com';
+
+function setFormStatus(message, type = 'info') {
+  if (!formStatus) return;
+  formStatus.textContent = message;
+  formStatus.className = `form-status show ${type}`;
+}
+
+function setFormSending(isSending) {
+  if (!submitButton) return;
+  submitButton.disabled = isSending;
+  submitButton.classList.toggle('is-loading', isSending);
+}
+
+if (contactForm) {
+  contactForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    if (!contactForm.checkValidity()) {
+      contactForm.reportValidity();
+      return;
+    }
+
+    const formData = new FormData(contactForm);
+    const payload = {
+      name: formData.get('name')?.toString().trim() || '',
+      email: formData.get('email')?.toString().trim() || '',
+      subject: formData.get('subject')?.toString().trim() || 'Portfolio Contact',
+      message: formData.get('message')?.toString().trim() || ''
+    };
+
+    setFormSending(true);
+    setFormStatus('Sending your message...', 'info');
+
+    try {
+      const response = await fetch(formEndpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          ...payload,
+          _subject: `Portfolio contact: ${payload.subject}`,
+          _captcha: 'false',
+          _template: 'table'
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error('Unable to send message right now.');
+      }
+
+      contactForm.reset();
+      setFormStatus('Thanks! Your message has been sent successfully.', 'success');
+    } catch (error) {
+      console.error(error);
+      setFormStatus('Something went wrong. Please email me directly at nr7584128@gmail.com.', 'error');
+    } finally {
+      setFormSending(false);
+    }
+  });
+}
+
 /* -----------------------
    Certificates
 ----------------------- */

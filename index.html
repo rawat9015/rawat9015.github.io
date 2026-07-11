@@ -73,7 +73,7 @@
           into pixel-perfect products.
         </p>
         <div class="hero-actions">
-          <a href="./doc/Neha_Rawat_Full_Stack_Developer.pdf" class="btn btn-primary">
+          <a href="./doc/Neha_Rawat_Full_Stack_Developer.pdf" target="_blank" class="btn btn-primary">
             <i class="fa-solid fa-download"></i> Download Resume
           </a>
           <a href="#projects" class="btn btn-ghost">
@@ -133,7 +133,7 @@
             <li><i class="fa-solid fa-envelope"></i> nr7584128@gmail.com</li>
             <li><i class="fa-solid fa-clock"></i> 3+ Years Experience</li>
           </ul>
-          <a href="#" class="btn btn-primary btn-sm"><i class="fa-solid fa-download"></i> Download CV</a>
+          <a href="./doc/Neha_Rawat_Full_Stack_Developer.pdf"   target="_blank"  class="btn btn-primary btn-sm"><i class="fa-solid fa-download"></i> Download CV</a>
         </div>
         <div class="about-right">
           <p class="about-lead reveal">
@@ -190,14 +190,14 @@
             <div class="tl-head">
               <div class="tl-logo"><i class="fa-solid fa-code"></i></div>
               <div>
-                <h3>Full Stack Developer</h3>
-                <p class="muted">Tech Company · 2024 — Present</p>
+                <h3>Executive Tech (Backend Developer)</h3>
+                <p class="muted">Tech Company · 2025 — Present</p>
               </div>
             </div>
             <ul>
-              <li>Built scalable MERN applications and REST APIs used in production.</li>
-              <li>Designed responsive interfaces with modern component patterns.</li>
-              <li>Optimised MongoDB queries and Node services for performance.</li>
+              <li>Developed and maintained backend modules for HRM, ERP, and Time Management System, Visitor Management System.</li>
+              <li>Built and integrated RESTful APIs, implementing secure authentication and role-based access control for different user levels.</li>
+              <li>Worked on CI migration (CI2 to CI4), AOP system development, third-party API integrations.</li>
             </ul>
           </div>
         </div>
@@ -212,9 +212,9 @@
               </div>
             </div>
             <ul>
-              <li>Developed HR portals and internal tools using Laravel & CodeIgniter.</li>
-              <li>Integrated third-party APIs and role-based authentication systems.</li>
-              <li>Collaborated with designers to ship pixel-perfect dashboards.</li>
+              <li>Built a bulk email marketing website using Laravel.</li>
+              <li>Resolved 100% of technical errors and SEO warnings across 3 company websites using SEMrush.</li>
+              <li>Contributed to the Email Security Software (GoDMARC) by designing the frontend UI and handling the Accounts Module for billing generation and service expiry tracking. Also Conducted manual testing and debugging.</li>
             </ul>
           </div>
         </div>
@@ -249,12 +249,12 @@
           <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
           <h3>Master's Degree</h3>
           <p class="muted">MCA · Computer Applications</p>
-          <span class="chip">2023 — 2025</span>
+          <span class="chip">2023 — Present</span>
         </div>
         <div class="glass-card edu-card reveal">
           <div class="edu-icon"><i class="fa-solid fa-user-graduate"></i></div>
           <h3>Bachelor's Degree</h3>
-          <p class="muted">BCA · Computer Applications</p>
+          <p class="muted">B.A. (Hons) · Bachelor of Arts</p>
           <span class="chip">2020 — 2023</span>
         </div>
         <div class="glass-card edu-card reveal">
@@ -359,31 +359,33 @@
             <li><span><i class="fa-solid fa-location-dot"></i></span><div><small>Location</small><p>New Delhi, India</p></div></li>
           </ul>
           <div class="socials">
-            <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/rawat9015" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/neha-rawat-b6117a234/" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
           </div>
         </div>
-        <form class="glass-card contact-form reveal" onsubmit="event.preventDefault(); alert('Message sent!');">
+        <form id="contactForm" class="glass-card contact-form reveal" novalidate>
           <div class="field">
-            <label>Your Name</label>
-            <input type="text" placeholder="Jane Doe" required />
+            <label for="contactName">Your Name</label>
+            <input id="contactName" name="name" type="text" placeholder="Jane Doe" required autocomplete="name" />
           </div>
           <div class="field">
-            <label>Email Address</label>
-            <input type="email" placeholder="jane@company.com" required />
+            <label for="contactEmail">Email Address</label>
+            <input id="contactEmail" name="email" type="email" placeholder="jane@company.com" required autocomplete="email" />
           </div>
           <div class="field">
-            <label>Subject</label>
-            <input type="text" placeholder="Let's work together" />
+            <label for="contactSubject">Subject</label>
+            <input id="contactSubject" name="subject" type="text" placeholder="Let's work together" required />
           </div>
           <div class="field">
-            <label>Message</label>
-            <textarea rows="5" placeholder="Tell me about your project..." required></textarea>
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
           </div>
-          <button type="submit" class="btn btn-primary btn-block">
-            Send Message <i class="fa-solid fa-paper-plane"></i>
+          <div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
+          <button id="contactSubmit" type="submit" class="btn btn-primary btn-block">
+            <span class="btn-label">Send Message <i class="fa-solid fa-paper-plane"></i></span>
+            <span class="btn-spinner" aria-hidden="true"><i class="fa-solid fa-spinner fa-spin"></i></span>
           </button>
         </form>
       </div>
@@ -400,8 +402,8 @@
         <p class="muted">© <span id="year"></span> Neha Rawat. Crafted with care.</p>
       </div>
       <div class="socials">
-        <a href="#"><i class="fa-brands fa-github"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/rawat9015" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/neha-rawat-b6117a234/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
         <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
       </div>
